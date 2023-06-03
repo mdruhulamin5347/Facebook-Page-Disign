@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    background-color: rgb(59, 90, 152) ;
+    overflow: hidden;
+}
+.conteiner{
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+    padding-top:15px;
+ 
+}
+
+.logo-area{
+    width: 30%;
+   float: left;
+}
+.login-area{
+    width: 70%;
+   float:left;
+    
+}
+.login-area form{
+    float: right;
+}
+.login-area form .text label,
+.login-area form .password label ,
+.login-area form .login input{
+    display: block;
+    font-size: 14px;
+    margin: 3px;
+    
+}
+.login-area form .text ,
+.login-area form .password {
+    margin-right: 10px;
+    color: #fff;
+}
+.login-area form .text input,
+.login-area form .password input{
+    border: 1px solid black;
+}
+.login-area form .password a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin: 4px;
+}
+.login-area form .password a:hover{
+    text-decoration: underline;
+}
+.login-area .text, 
+.login-area .password,
+.login-area .login{
+    float: left;
+    
+}
+.login-area .login input[type="submit"]{
+    margin-top:22px;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(60,90,200);
+    color: #fff;
+}
+/*singup-area*/
+/*singup-area*/
+/*singup-area*/
+/*singup-area*/
+/*singup-area*/
+section{
+    background:linear-gradient(white, #D4D9E9);
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+
+.left-site{
+    width: 45%;
+    float: left;
+    margin-left: 10px;
+    
+}
+.left-site .paragraph p{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(59, 90, 152);
+    margin-top: 3px;
+}
+.left-site .image img{
+    height: 240px;
+    width: 100%;
+    margin-top: 20px;
+}
+.right-site{
+    width: 40%;
+    float: right;
+}
+.right-site .h1 h1{
+    margin: 0;
+}
+.right-site .h4 h4{
+    margin-top:5px;
+    margin-bottom:15px;
+}
+.right-site form .ful-name input,
+.right-site form .moble-number input,
+.right-site form .pass input {
+    width:100%;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 5px 0;
+    font-size: 14px;
+}
+.right-site form .ful-name input{
+    width: 48%;
+    float: left;
+    padding: 3px;
+   
+}
+.right-site form .first-name input{
+   margin-right: 4%;
+}
+.right-site form .birthday .birth{
+    font-size: 20px;
+    margin: 15px 0 10px 0;
+}
+.right-site form .birthday{
+    overflow: hidden;
+}
+
+.right-site form .birthday .day select{
+    float: left;
+    border: 1px solid #bdc7d8;
+    margin-bottom: 7px;
+}
+.right-site form .birthday .day select:nth-child(3){
+    margin-right: 10px;
+}
+
+
+.right-site form .birthday .birth-link a{
+    font-size: 12px; 
+    width: 170px;
+    display: block;
+    float: left;
+    line-height: 1;
+    text-decoration: none;
+    color: rgb(112, 112, 236);
+}
+.right-site form .birthday .birth-link a:hover{
+    text-decoration: underline;
+}
+.right-site form .radio {
+   
+    margin-top:15px;
+    
+}
+.right-site form .type p{
+    font-size: 12px;
+    margin-top:25px;
+}
+.right-site form .type p a{
+    text-decoration: none;
+    color: rgb(112, 112, 236);
+}
+.right-site form .type p a:hover{
+    text-decoration: underline;
+}
+.right-site form .sing-up input{
+    padding: 5px 50px;
+    margin: 5px 0 15px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: linear-gradient(rgb(45,147,38), rgb(45,255,0));
+}
+.right-site form .sing-up input:hover{
+    background: linear-gradient(rgb(45,255,0),rgb(45,147,38));
+    cursor: pointer;
+}
+.right-site  .business .para{
+    font-size: 13px;
+    font-weight: bold ;
+}
+.right-site  .business .para a{
+    text-decoration: none;
+    color: rgb(112, 112, 236);
+}
+.right-site  .business .para a:hover{
+    text-decoration: underline;
+}
+/*singup-area*/
+/*singup-area*/
+/*singup-area*/
+/*singup-area*/
+/*singup-area*/
+
+footer{
+   padding-top: 10px;
+}
+
+footer ul{
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+    
+}
+footer ul li{
+    list-style-type: none;
+    display: inline;
+  
+}
+footer ul li a{
+    text-decoration: none;
+    color: #365899;
+    margin-right: 10px;
+    font-size: 12px;
+}
+footer hr{
+    border: 0;
+    border-bottom: 1px solid #999;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #737373;
+}
+footer ul li:last-child a{
+    margin-right: 0;
+}
+
+footer .top ul li:last-child a{
+    border: 1px solid #737373;
+    padding: 0px 5px;
+    font-weight: bold;
+    background-color: #f8f8fa;
+}
+footer .bottom p{
+    color: #737373;
+    font-size: 12px;
+}

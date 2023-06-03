@@ -1,0 +1,45 @@
+@media  screen and (max-width:980px) {
+    .logo-area{
+        width: 160px;
+        float: none;
+        margin: auto;
+        
+    }
+    .login-area{
+        width: 364px;
+        float: none;
+        margin: auto;
+    }
+    .login-area form{
+        float: none;
+    }
+  
+    
+}
+@media screen and (max-width:768px){
+    .login-area{
+        width: 100%;
+    }
+    .login-area form .text, 
+    .login-area form .password ,
+    .login-area form .login{
+        float:none;
+    }
+    .login-area form .text input,
+    .login-area form .password input{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .left-site{
+        width: 100%;
+        float:none;
+        margin-bottom: 20px;
+ 
+    }
+    .right-site{
+        width: 100%;
+        float: none;
+    }
+
+    
+}
